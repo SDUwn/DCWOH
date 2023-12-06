@@ -33,11 +33,3 @@ train_param.iter = 5;
 train_param.current_bits=16;
 
 [eva,~]=evaluate_WOCH(XTrain_clip,YTrain,XTrain_clip,LTrain,XQuery_clip,LQuery,train_param);
-
-s/i_',num2str(val(i)),' j_',num2str(val(j)),' k_',num2str(val(k)),' m_',num2str(val(m)),'.mat'],'res');
-            end
-        end
-    end
-end
-    
-%[eva,t]=evaluate_WOCH(XTrain_clip,YTrain,XTrain_clip,LTrain,XQuery_clip,LQuery,train_param);
