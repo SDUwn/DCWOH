@@ -2,9 +2,7 @@
 Dynamic Clustering-Driven Weakly-Supervised Online Hashing with Enhanced Similarity
 
 ## Running Environment
-```matlab
 Matlab
-```
 
 ## Datasets
 We use three datasets to perform our experiments, i.e., MIRFLICKR-25K, and NUS-WIDE. 
