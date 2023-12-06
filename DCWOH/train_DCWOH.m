@@ -1,4 +1,4 @@
-function [DD,BB,W]=train_WOCH_v14(XTrain_t,YTrain_t,ZTrain_t,DD,BB,param,anchor)
+function [DD,BB,W]=train_DCWOH(XTrain_t,YTrain_t,ZTrain_t,DD,BB,param,anchor)
 
     %% set the parameters
     nbits = param.current_bits;
