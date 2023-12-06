@@ -24,9 +24,9 @@ function [eva,train_time_round] = evaluate_WOCH(XTrain,YTrain,ZTrain,LTrain,XQue
         
         tic 
         if chunki==1          
-            [DD,BB,W1]=train_WOCH0_v14(XTrain_t',YTrain_t',ZTrain_t',train_param,anchorX');          
+            [DD,BB,W1]=train_DCWOH(XTrain_t',YTrain_t',ZTrain_t',train_param,anchorX');          
         else         
-            [DD,BB,W1]=train_WOCH_v14(XTrain_t',YTrain_t',ZTrain_t',DD,BB,train_param,anchorX');
+            [DD,BB,W1]=train_DCWOH1(XTrain_t',YTrain_t',ZTrain_t',DD,BB,train_param,anchorX');
         end
         
         XTrain_t=Kernelize(XTrain_t,anchorX);

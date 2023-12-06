@@ -32,4 +32,4 @@ train_param.c=	40;
 train_param.iter = 5;
 train_param.current_bits=16;
 
-[eva,~]=evaluate_WOCH(XTrain_clip,YTrain,XTrain_clip,LTrain,XQuery_clip,LQuery,train_param);
+[eva,~]=evaluate_DCWOH(XTrain_clip,YTrain,XTrain_clip,LTrain,XQuery_clip,LQuery,train_param);
