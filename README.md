@@ -9,7 +9,7 @@ Matlab
 ## Datasets
 We use three datasets to perform our experiments, i.e., MIRFLICKR-25K, and NUS-WIDE. 
 <br>
-You can download all dataset from [HERE](https://pan.baidu.com/s/1dBQc_WPe-qxM_eQULTrEbA)提取码：5ixl. 
+You can download all dataset from [HERE](https://pan.baidu.com/s/1dBQc_WPe-qxM_eQULTrEbA?pwd=5ixl). 
 
 
 ## Run demo
